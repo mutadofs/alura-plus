@@ -31,7 +31,7 @@ body {
 }
 
 .main {
-  background-image: url("./source/background.png");
+  background-image: url("./assets/background.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
