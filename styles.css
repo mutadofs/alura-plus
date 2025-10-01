@@ -163,3 +163,36 @@ body {
   background-color: transparent;
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    height: 100%;
+    background-image: none;
+    margin: 2em 2em 10em 2em;
+    text-align: center;
+  }
+
+  .hero {
+    margin: 2em;
+  }
+
+  .hero__image,
+  .section__image {
+    width: 50vw;
+  }
+
+  .devices__list {
+    flex-direction: column;
+  }
+
+  .devices,
+  .footer {
+    margin: 0 2em;
+    text-align: center;
+  }
+
+  .footer__list {
+    flex-direction: column;
+  }
+}
